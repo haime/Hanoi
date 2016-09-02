@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Hanoi.h
+iostream
+-
+stack
+-
+cmath
+-
+
+/home/biorobotica/Hanoi/src/Hanoi.cpp
+Hanoi.h
+/home/biorobotica/Hanoi/src/Hanoi.h
+
+/home/biorobotica/Hanoi/src/main.cpp
+Hanoi.h
+/home/biorobotica/Hanoi/src/Hanoi.h
+
